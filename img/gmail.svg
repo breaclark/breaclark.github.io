@@ -1,39 +1,14 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 216 216" style="enable-background:new 0 0 216 216;" xml:space="preserve">
-<path d="M108,0C48.353,0,0,48.353,0,108s48.353,108,108,108s108-48.353,108-108S167.647,0,108,0z M156.657,60L107.96,98.498
-	L57.679,60H156.657z M161.667,156h-109V76.259l50.244,38.11c1.347,1.03,3.34,1.545,4.947,1.545c1.645,0,3.073-0.54,4.435-1.616
-	l49.374-39.276V156z"/>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>gmail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.9">
+        <g id="gmail" fill="#3E3E3E" fill-rule="nonzero">
+            <g id="Shape">
+                <path d="M16,0 C7.16340741,0 0,7.16340741 0,16 C0,24.8365926 7.16340741,32 16,32 C24.8365926,32 32,24.8365926 32,16 C32,7.16340741 24.8365926,0 16,0 Z M23.2084444,8.88888889 L15.9940741,14.5922963 L8.54503704,8.88888889 L23.2084444,8.88888889 Z M23.9506667,23.1111111 L7.80251852,23.1111111 L7.80251852,11.2976296 L15.2460741,16.9435556 C15.4456296,17.0961481 15.7408889,17.1724444 15.978963,17.1724444 C16.2226667,17.1724444 16.4342222,17.0924444 16.636,16.933037 L23.9506667,11.1143704 L23.9506667,23.1111111 Z"></path>
+            </g>
+        </g>
+    </g>
 </svg>
