@@ -6,7 +6,7 @@
 
 ### Finished Sketch Files
 
-<img width="400" src="">
+<img width="400" src="https://raw.githubusercontent.com/breaclark/portfolio-website/master/Screen%20Shot%202018-06-13%20at%2010.13.33%20AM.png">
 
 ## Known Bugs
 * No known bugs.
