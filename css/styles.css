@@ -10,6 +10,40 @@ body {
   background-size: cover;
 }
 
+#header-background {
+  background-color: rgba(233, 241, 226, 1);
+  top: 0px;
+  height: 110px;
+  left: 0px;
+  position: fixed;
+  width: 100vw;
+  z-index: -1;
+}
+
+#logo {
+  left: 18px;
+  position: absolute;
+  top: 18px;
+}
+
+#nav {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+#nav ul {
+  list-style-type: none;
+}
+
+#nav li {
+  color: #3E3E3E;
+  display: inline;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16pt;
+  margin: 30px;
+}
+
 #footer {
   align-items: center;
   background-color: rgba(233, 241, 226, 0.8);
