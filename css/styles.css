@@ -12,10 +12,10 @@ body {
 
 #header-background {
   background-color: rgba(233, 241, 226, 1);
-  top: 0px;
   height: 110px;
   left: 0px;
   position: fixed;
+  top: 0px;
   width: 100vw;
   z-index: -1;
 }
@@ -42,6 +42,15 @@ body {
   font-family: 'Oswald', sans-serif;
   font-size: 16pt;
   margin: 30px;
+}
+
+#about {
+  background-color: rgba(233, 241, 226, 0.6);
+  margin-top: 45vh;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  padding: 34px;
+  width: 80vw;
 }
 
 #footer {
