@@ -124,10 +124,6 @@ body {
   width: 80vw;
 }
 
-#contact {
-  margin-bottom: 45vh;
-}
-
 #work {
   display: flex;
   flex-wrap: wrap;
@@ -179,6 +175,10 @@ body {
 
 .project:hover .project-info {
   display: block;
+}
+
+#contact {
+  margin-bottom: 35vh;
 }
 
 #footer {
