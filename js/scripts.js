@@ -1,10 +1,3 @@
-// $("#button").click(function() {
-//     $('html, body').animate({
-//         scrollTop: $("#elementtoScrollToID").offset().top
-//     }, 2000);
-// });
-// will maybe use something like this to scroll to ids
-
 
 function inViewport (id) {
   let idElement = document.getElementById(id);
@@ -34,4 +27,22 @@ document.addEventListener('scroll', function(){
     document.getElementById("work-link").style.textDecoration = "none";
     document.getElementById("contact-link").style.textDecoration = "none";
   }
+});
+
+$("document").ready(function() {
+  $(".nav-about-links").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top - 160
+    }, 1000);
+  });
+  $(".nav-work-links").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#work").offset().top - 160
+    }, 1000);
+  });
+  $(".nav-contact-links").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact").offset().top - 160
+    }, 1000);
+  });
 });
