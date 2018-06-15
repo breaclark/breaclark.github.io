@@ -23,7 +23,7 @@ body {
   left: 18px;
   position: fixed;
   top: 18px;
-  z-index: 3;
+  z-index: 5;
 }
 
 #nav {
@@ -38,11 +38,78 @@ body {
 }
 
 #nav li {
-  color: #3E3E3E;
   display: inline;
+}
+
+#nav li a{
+  color: #3E3E3E;
   font-family: 'Oswald', sans-serif;
   font-size: 16pt;
+  text-decoration: none;
   margin: 30px;
+}
+
+#hamburger {
+  display: none;
+  height: 160px;
+  overflow: hidden;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 100%;
+  z-index: 4;
+}
+
+@keyframes menu-slide-in {
+  0% {
+    top: -140px;
+  }
+  100% {
+    top: 78px;
+  }
+}
+
+#hamburger:hover {
+  overflow: visible;
+}
+
+#hamburger:hover #menu-back {
+  animation: menu-slide-in 1s;
+  animation-fill-mode: both;
+}
+
+#hamburger-symbol {
+  position: fixed;
+  right: 30px;
+  top: 25px;
+}
+
+.ham-line {
+  background-color: #3E3E3E;
+  border-radius: 4px;
+  height: 4px;
+  margin-bottom: 8px;
+  width: 34px;
+}
+
+#menu-back {
+  background-color: rgba(233, 241, 226, 1);
+  height: 114px;
+  left: 0px;
+  position: fixed;
+  top: -140px;
+  width: 100%;
+  z-index: -1;
+}
+
+#menu a{
+  color: #3E3E3E;
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  text-align: right;
+  text-decoration: none;
+  margin: 7px;
+  margin-right: 30px;
 }
 
 #about, #contact {
@@ -55,13 +122,17 @@ body {
   width: 80vw;
 }
 
+#contact {
+  margin-bottom: 45vh;
+}
+
 #work {
   display: flex;
   flex-wrap: wrap;
-  height: 60vw;
   margin-top: 45vh;
   margin-right: 10vw;
   margin-left: 10vw;
+  min-height: 60vw;
   padding: 34px;
   width: 80vw;
 }
@@ -127,4 +198,19 @@ body {
 
 #social-links img {
   margin-right: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  #nav {
+    display: none;
+  }
+  #hamburger {
+    display: block;
+  }
+  #header-background {
+    height: 80px;
+  }
+  #logo img{
+    height: 120px;
+  }
 }
