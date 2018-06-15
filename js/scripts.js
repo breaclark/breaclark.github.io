@@ -19,14 +19,19 @@ function inViewport (id) {
 document.addEventListener('scroll', function(){
   if (inViewport("about")) {
     document.getElementById("about-link").style.textDecoration = "underline";
+    document.getElementById("work-link").style.textDecoration = "none";
+    document.getElementById("contact-link").style.textDecoration = "none";
   } else if (inViewport("work")){
     document.getElementById("work-link").style.textDecoration = "underline";
+    document.getElementById("about-link").style.textDecoration = "none";
+    document.getElementById("contact-link").style.textDecoration = "none";
   } else if (inViewport("contact")){
     document.getElementById("contact-link").style.textDecoration = "underline";
+    document.getElementById("about-link").style.textDecoration = "none";
+    document.getElementById("work-link").style.textDecoration = "none";
   } else {
-    let navs = document.getElementsByClassName("nav-links");
-    for (let i=0; i<navs.length; i++) {
-      navs[i].style.textDecoration = "none";
-    }
+    document.getElementById("about-link").style.textDecoration = "none";
+    document.getElementById("work-link").style.textDecoration = "none";
+    document.getElementById("contact-link").style.textDecoration = "none";
   }
 });
