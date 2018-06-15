@@ -49,9 +49,13 @@ body {
   margin: 30px;
 }
 
+#nav #about-link {
+  text-decoration: underline;
+}
+
 #hamburger {
   display: none;
-  height: 180px;
+  height: 50px;
   overflow: hidden;
   position: absolute;
   right: 10px;
@@ -71,6 +75,7 @@ body {
 
 #hamburger:hover {
   overflow: visible;
+  height: 180px;
 }
 
 #hamburger:hover #menu-back {
@@ -79,7 +84,7 @@ body {
 }
 
 #hamburger-symbol {
-  height: 60px;
+  height: 40px;
   position: fixed;
   right: 30px;
   top: 25px;
