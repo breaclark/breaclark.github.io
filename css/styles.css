@@ -215,4 +215,26 @@ body {
   #logo img{
     height: 120px;
   }
+  #about, #contact {
+    margin-top: 30vh;
+  }
+  .project {
+    height: 500px;
+    width: 356px;
+  }
+  .project-img {
+    height: 338px;
+    width: 338px;
+  }
+  .project-info {
+    background-color: transparent;
+    border: none;
+    display: block;
+    height: 338px;
+    position: relative;
+    width: 338px;
+  }
+  .project a {
+    text-decoration: none;
+  }
 }
